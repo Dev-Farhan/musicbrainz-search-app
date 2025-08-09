@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Shortlist from "../components/Shortlist";
 import Searchbar from "../components/Searchbar";
 import MusicbrainzTable from "../components/MusicbrainzTable";
 import Loader from "../components/Loader";
@@ -9,7 +8,6 @@ const Musicbrainz = () => {
   const [artistData, setArtistData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
 
-  const handleClose = () => setShowShortlist(!showShortlist);
 
   const getMusicbrainzData = async () => {
     setIsLoading(true);
