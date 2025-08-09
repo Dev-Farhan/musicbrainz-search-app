@@ -1,8 +1,9 @@
-
 # Music Search & Favourites App
 
 This application allows you to search for artists, view their releases, and save favourites.  
 It uses **Last.fm API** for artist search and **MusicBrainz API** for release information.
+
+**Live Demo:** [https://musicbrainz-search-app.netlify.app/](https://musicbrainz-search-app.netlify.app/)
 
 ---
 
@@ -23,6 +24,7 @@ Before you start, make sure you have:
    ```bash
    git clone https://github.com/Dev-Farhan/musicbrainz-search-app.git
    cd musicbrainz-search-app
+
 
 2. **Installation**
 
@@ -61,7 +63,7 @@ Before you start, make sure you have:
 
 ## 📖 Usage
 
-* **Search Artists:** Enter an artist name in the search bar then click on search icon.
+* **Search Artists:** Enter an artist name in the search bar then click on the search icon.
 * **Show Releases:** Click "Show releases" to fetch release details.
 * **Add to Favourites:** Click the ⭐ icon to save an artist.
 * **View Favourites:** Go to the **Favourites** page to see saved artists.
@@ -95,6 +97,5 @@ Before you start, make sure you have:
 
 * Ensure `.env` file is **not committed** to version control.
 * If API calls fail, verify your Last.fm key and internet connection.
-
 ---
 
