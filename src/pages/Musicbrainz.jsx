@@ -14,7 +14,7 @@ const Musicbrainz = () => {
     if (!query.trim()) return;
     try {
       const res = await fetch(
-        `http://musicbrainz.org/ws/2/artist/?query=${encodeURIComponent(
+        `https://musicbrainz.org/ws/2/artist/?query=${encodeURIComponent(
           query
         )}&fmt=json`
       );
